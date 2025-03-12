@@ -1,0 +1,11 @@
+name: Hello Rashed
+on: workflow_dispatch
+jobs:
+    say-hello-to-me:
+      runs-on: ubuntu-latest
+
+      steps:
+      - name: print-hello-rashed
+        run: echo "Hello Rashed"
+      - name: see-u-rashed
+        run: echo "See you Rashed"
